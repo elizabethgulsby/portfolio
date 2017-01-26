@@ -1,0 +1,60 @@
+/* line 1, ../compass/sass/styles.scss */
+.navbar-inverse {
+  margin-bottom: 0;
+  border-radius: 0px;
+}
+
+/* line 6, ../compass/sass/styles.scss */
+.jumbotron-header, #About, #Portfolio, #Contact {
+  border: 1px solid black;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 15, ../compass/sass/styles.scss */
+.jumbotron-background {
+  background-color: #ded9d9;
+  background-image: url("../images/BGBlur.jpg");
+}
+
+/* line 20, ../compass/sass/styles.scss */
+.image-circle {
+  padding: 0;
+  left: 0;
+  margin-left: 0;
+  width: 120px;
+  height: 120px;
+  position: relative;
+  z-index: 100;
+  background-color: #fed136;
+  color: white;
+  border-radius: 100%;
+  border: 7px solid #f1f1f1;
+  text-align: center;
+}
+
+/* line 35, ../compass/sass/styles.scss */
+#Skills {
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  justify-content: center;
+}
+/* line 43, ../compass/sass/styles.scss */
+#Skills .row {
+  margin-top: -360px;
+}
+/* line 46, ../compass/sass/styles.scss */
+#Skills .col-sm-4 {
+  width: 33%;
+}
+/* line 49, ../compass/sass/styles.scss */
+#Skills .all-icons img {
+  height: 50px;
+  width: 50px;
+}
