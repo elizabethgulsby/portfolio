@@ -1,10 +1,13 @@
 $(document).ready(function() {
 	
+	//$('.navlink').css({"color": "black"});
+	//$('.navlink').css({"padding-top": "20px"});
+
 	//handling scroll animation when nav links are clicked
 	    $('a.page-scroll').bind('click', function(event) {
 	        var $anchor = $(this);
 	        $('html, body').stop().animate({
-	            scrollTop: ($($anchor.attr('href')).offset().top - 64)
+	            scrollTop: ($($anchor.attr('href')).offset().top - 63)
 	        }, 1500, 'easeInOutExpo');
 	        event.preventDefault();
 	    });
@@ -21,9 +24,6 @@ $(document).ready(function() {
 			else {
 				elem.css({"background-color":"transparent","transition":".8s"});
 				color.css({"color": "black"});
-			}
-			if (windowWidth <= 768) {
-				color.css({"color": "black", "background-color": "white"})
 			}
 		});
 
