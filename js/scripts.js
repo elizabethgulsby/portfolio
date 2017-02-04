@@ -12,6 +12,7 @@ $(document).ready(function() {
 	        event.preventDefault();
 	    });
 
+
 	    //handling navbar CSS transitions (To Do: fix animated scroll when name in top left is clicked)
 		$(window).scroll(function () {
 			var elem = $('.fixed');
@@ -26,7 +27,6 @@ $(document).ready(function() {
 				color.css({"color": "black"});
 			}
 		});
-
 
 		// $(window).resize(function(){
 		// 	var color = $('.page-scroll');
