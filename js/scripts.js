@@ -13,7 +13,9 @@ $(document).ready(function() {
 	    });
 
 
-	    //handling navbar CSS transitions (To Do: fix animated scroll when name in top left is clicked)
+	    //handling navbar CSS transitions 
+	    //To Do: fix animated scroll when name in top left is clicked
+	    //To Do: Fix white text in collapsed menu
 		$(window).scroll(function () {
 			var elem = $('.fixed');
 			var color = $('.page-scroll');
